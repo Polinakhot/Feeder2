@@ -29,5 +29,11 @@ public class Feeder {
         return currentFood;
     }
     
+    public Feeder(int c)
+    {
+        currentFood = c;
+    }
+    
+    public Feeder() {}
 
 }
